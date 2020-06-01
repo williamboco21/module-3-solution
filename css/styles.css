@@ -1,0 +1,64 @@
+body {
+    box-sizing: border-box;
+}
+
+#main-content {
+    margin: 0 15px;
+    padding-bottom: 17px;
+}
+
+#menu-title {
+    margin-bottom: 50px;
+}
+
+#chicken-tile {
+    background-color: #b1b4bd;
+}
+
+#nav-list, li {
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+
+section > p {
+    padding: 0 5px;
+}
+
+section > h2 {
+    padding-bottom: 10px;
+}
+
+.navbar {
+    background-color: #5e5e66;
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-brand > span {
+    color: #000;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+
+    .collapse.in {
+        background-color: #FFF;
+    }
+
+    .navbar-toggle.collapsed {
+        border-color: #000;
+   }
+
+   .navbar-toggle.collapsed .icon-bar {
+        background-color: #000;
+   }
+
+}
